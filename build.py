@@ -49,7 +49,7 @@ h1{font-size:1.9rem;line-height:1.2;margin:0}h2{font-size:1.25rem;margin:2rem 0 
 a{color:var(--accent)}li{margin:.35rem 0}footer{margin-top:32px;color:var(--soft);font-size:.9rem}
 """
 page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SummerQuest Privacy Policy</title><meta name="description" content="Privacy policy for SummerQuest, a learning game for children aged 7 to 9. Nothing leaves the tablet.">
+<title>SummerQuest Privacy Policy</title><meta name="description" content="Privacy policy for SummerQuest, a learning game for elementary-school children. Nothing leaves the tablet.">
 <link rel="icon" href="../icon.png"><style>{CSS}</style></head><body><main>
 <header><img src="../icon.png" alt=""><h1>{html.escape(title)}</h1></header>
 <div class="card">{''.join(body)}</div>
@@ -58,11 +58,11 @@ page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 """
 open(f'{out_dir}/privacy/index.html','w').write(page)
 index = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SummerQuest</title><meta name="description" content="SummerQuest: a summer learning island for kids finishing 2nd, 3rd or 4th grade.">
+<title>SummerQuest</title><meta name="description" content="SummerQuest: a summer learning island for elementary-school kids.">
 <link rel="icon" href="icon.png"><style>{CSS}</style></head><body><main>
 <header><img src="icon.png" alt=""><h1>SummerQuest</h1></header>
-<div class="card"><p>A summer learning island for kids finishing 2nd, 3rd or 4th grade: short spoken lessons with moving pictures, then math, reading, writing and science games.</p>
-<p>No ads, no in-app purchases, no accounts, and no internet needed. Everything stays on the tablet.</p>
+<div class="card"><p>A summer learning island for elementary-school kids, starting with grades 2 to 4: short spoken lessons with moving pictures, then math, reading, writing and science games.</p>
+<p>No accounts and no internet needed. Everything stays on the tablet.</p>
 <ul><li><a href="privacy/">Privacy policy</a></li><li>Contact: <a href="mailto:zaclements@gmail.com">zaclements@gmail.com</a></li></ul></div>
 </main></body></html>
 """
