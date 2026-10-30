@@ -1,19 +1,23 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SummerQuest</title><meta name="description" content="SummerQuest: a summer learning island for elementary-school kids.">
-<link rel="icon" href="icon.png"><style>
-:root{--bg:#fff8ec;--card:#fffdf8;--ink:#3a2c38;--soft:#6b5a66;--line:#ead9c0;--accent:#c2453b}
-@media (prefers-color-scheme: dark){:root{--bg:#1f1a1e;--card:#2a2328;--ink:#f3e9df;--soft:#c9b9c3;--line:#463b42;--accent:#ff8a7a}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
-header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
-header img{width:56px;height:56px;border-radius:14px}
-h1{font-size:1.9rem;line-height:1.2;margin:0}h2{font-size:1.25rem;margin:2rem 0 .5rem}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 24px 16px;margin-top:16px}
-a{color:var(--accent)}li{margin:.35rem 0}footer{margin-top:32px;color:var(--soft);font-size:.9rem}
-</style></head><body><main>
-<header><img src="icon.png" alt=""><h1>SummerQuest</h1></header>
-<div class="card"><p>A summer learning island for kids from kindergarten to 5th grade: short spoken lessons with moving pictures, then math, reading, writing and science games.</p>
-<p>No accounts and no internet needed. Everything stays on the tablet.</p>
-<ul><li><a href="privacy/">Privacy policy</a></li><li>Contact: <a href="mailto:zaclements@gmail.com">zaclements@gmail.com</a></li></ul></div>
-</main></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>SummerQuest</title><meta name="description" content="SummerQuest: a summer learning island for kids from kindergarten to 5th grade.">
+<link rel="icon" href="icon.png"><link rel="stylesheet" href="style.css">
+<link rel="preload" href="fonts/fredoka-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+</head><body>
+<header class="hero home"><div class="sky" aria-hidden="true"><span class="sun"></span><span class="cloud c1"></span><span class="cloud c2"></span><span class="cloud c3"></span></div>
+  <div class="hero-in">
+    <img class="app-icon" src="icon.png" alt="" width="96" height="96">
+    <h1 class="logo">SummerQuest</h1>
+    <p class="lede">A summer learning island for kids from kindergarten to 5th grade: short spoken lessons with moving pictures, then math, reading, writing and science games.</p>
+    <ul class="chips"><li>No accounts</li><li>No internet needed</li><li>No ads</li><li>Everything stays on the tablet</li></ul>
+  </div><svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 48C180 8 360 8 540 36s360 44 540 20 270-40 360-28v104H0z"/></svg>
+</header>
+<main class="home-main">
+  <div class="shots"><figure><img src="img/01-world.jpg" alt="The island world, with houses, paths and a pet fox" width="960" height="600" loading="lazy"></figure><figure><img src="img/02-lesson-fractions.jpg" alt="A spoken lesson: one out of four equal pizza slices" width="960" height="600" loading="lazy"></figure><figure><img src="img/08-k-listen-play.jpg" alt="Kindergarten Listen and Play" width="960" height="600" loading="lazy"></figure><figure><img src="img/10-g5-long-division.jpg" alt="Fifth-grade long division" width="960" height="600" loading="lazy"></figure></div>
+  <div class="card links">
+    <a class="btn" href="privacy/">Privacy policy →</a>
+    <p>Contact: <a href="mailto:zaclements@gmail.com">zaclements@gmail.com</a></p>
+  </div>
+</main>
+</body></html>
